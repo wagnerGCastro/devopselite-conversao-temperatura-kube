@@ -9,3 +9,9 @@ O projeto conversão de temperatura é um projeto desenvolvido em NodeJS. O proj
 excutar: docker compose -f docker-compose.yaml up --build server
 
 A aplicação é exposta usando a porta 3078
+
+### Preview site
+
+[clique aqui](http://conversao-temperatura.wagnercastro.ml)
+
+ou http://conversao-temperatura.wagnercastro.ml/
