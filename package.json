@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wagnreGCastro/conversao-temperatura.git"
+    "url": "git+https://github.com/wagnerGCastro/conversao-temperatura.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wagnreGCastro/conversao-temperatura/issues"
+    "url": "https://github.com/wagnerGCastro/conversao-temperatura/issues"
   },
-  "homepage": "https://github.com/wagnreGCastro/conversao-temperatura#readme",
+  "homepage": "https://github.com/wagnerGCastro/conversao-temperatura#readme",
   "dependencies": {
     "body-parser": "^1.20.1",
     "chai": "^4.3.6",
