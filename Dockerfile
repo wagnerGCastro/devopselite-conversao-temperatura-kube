@@ -10,8 +10,7 @@ RUN npm install
 RUN npm run build
 
 ENV HOST 0.0.0.0
-EXPOSE 3071
-
+EXPOSE 3078
 
 # Production build stage
 FROM common-build-stage as production-build-stage
