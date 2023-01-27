@@ -1,4 +1,4 @@
-const convert = require('../convert')
+const convert = require('../src/convert')
 var expect  = require("chai").expect;
 
 describe('Conversor de Temperatura', () => {

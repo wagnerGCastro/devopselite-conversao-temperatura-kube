@@ -1,0 +1,6 @@
+{
+  "ext": ".js, .ejs, .json, .yaml, .yml",
+  "execMap": {
+    "js": "sucrase-node"
+  }
+}
