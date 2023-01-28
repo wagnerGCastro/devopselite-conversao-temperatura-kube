@@ -15,3 +15,9 @@ A aplicação é exposta usando a porta 3078
 [clique aqui](http://conversao-temperatura.wagnercastro.ml)
 
 ou http://conversao-temperatura.wagnercastro.ml/
+
+##
+
+docker build . -t docker_hub_name/conversao-temperatura
+docker login -u dockerhub_name
+docker push docker_hub_name/conversao-temperatura
