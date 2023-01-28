@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: devopselite
+  name: web-conv-temp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web-conv-temp
+  template:
+    metadata:
+      labels:
+        app: web-conv-temp
+    spec:
+      imagePullSecrets:
+        - name: docker-hub
+      containers:
+        - name: web-conv-temp
+          image: wagnercastro/conversao-temperatura
+          imagePullPolicy: Always
+          resources:
+            limits:
+              cpu: 100m
+              memory: 512Mi
+            requests:
+              cpu: 50m
+              memory: 256Mi
